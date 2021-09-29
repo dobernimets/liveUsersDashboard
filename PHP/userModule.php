@@ -37,9 +37,6 @@
                }
                else if($user->userName == $userName && $user->email != $email){       
                 return "err";
-
-               }else if($user->email == $email && $user->userName != $userName){
-                return "err";
                }
             
             }
